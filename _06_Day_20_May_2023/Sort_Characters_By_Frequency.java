@@ -1,4 +1,4 @@
-package _06_Day_16_May_2023;
+package _06_Day_20_May_2023;
 
 import java.util.HashMap;
 import java.util.Map;
