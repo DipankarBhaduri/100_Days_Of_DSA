@@ -17,7 +17,9 @@ class HollowPattern1 {
     public void printPattern(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 2 * n; j++) {
-                if (j == n + i || j == n - i) {
+                if (i == n - 1 && j != 0) {
+                    System.out.print("*");
+                } else if (j == n + i || j == n - i) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
