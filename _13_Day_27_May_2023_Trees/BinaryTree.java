@@ -18,17 +18,17 @@ class BuildTree {
     }
 }
 
-// class Node {
-// int data;
-// Node left;
-// Node right;
+class Node {
+    int data;
+    Node left;
+    Node right;
 
-// Node(int data) {
-// this.data = data;
-// left = null;
-// right = null;
-// }
-// }
+    Node(int data) {
+        this.data = data;
+        left = null;
+        right = null;
+    }
+}
 
 public class BinaryTree {
 

@@ -2,17 +2,17 @@ package _13_Day_27_May_2023_Trees;
 
 import java.util.*;
 
-// class Node {
-//     int data;
-//     Node left;
-//     Node right;
+class Node {
+    int data;
+    Node left;
+    Node right;
 
-//     Node(int data) {
-//         this.data = data;
-//         this.left = null;
-//         this.right = null;
-//     }
-// }
+    Node(int data) {
+        this.data = data;
+        this.left = null;
+        this.right = null;
+    }
+}
 
 class BuildBinaryTree {
     public Node BST(Node root, int val) {
@@ -95,6 +95,6 @@ public class BinarySearchTree {
         for (int i = 0; i < nodes.length; i++) {
             root = buildBinaryTree.BST(root, nodes[i]);
         }
-        buildBinaryTree.postOrder(root);
+        buildBinaryTree.levelOrder(root);
     }
 }
